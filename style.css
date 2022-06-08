@@ -1,0 +1,102 @@
+.container img {
+    width: 100%;
+    z-index: -100;
+}
+
+.modal {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+    z-index: 100;
+}
+
+.left {
+    width: 200px;
+}
+
+.left img {
+    width: 100%;
+    height: 300px;
+}
+
+.image__overlay {
+    background: rgba(0,0,0, 0.5);
+    color: #ffffff;
+}
+
+.right {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+}
+
+#close-modal {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 8vh;
+    cursor: pointer;
+}
+
+/* Parallax */
+/* Parallax */
+/* Parallax */
+/* Parallax */
+/* Parallax */
+/* Parallax */
+/* Parallax */
+.para-css {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: big john;
+    width: 100%;
+    height: 100vh;
+}
+
+.para-div h1 {
+    font-size: 60px;
+    background: #eee;
+    padding: 8px 24px;
+    border-radius: 16px;
+    text-transform: uppercase;
+}
+
+/* #parallax:nth-child(2) {
+    background-image: url("https://images.pexels.com/photos/1624496/pexels-photo-1624496.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    height: 500vh;
+} */
+
+.para-div {
+    height: 400px;
+    background-image: url("https://images.pexels.com/photos/2385210/pexels-photo-2385210.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Team */
+.team{
+    margin: 4em 0;
+    position: relative;  
+   }
+   .team h1{
+    color:#F97300;
+    margin: 2em; 
+   }
+   .team .item{
+    position: relative;
+   }
+   .team .des{
+    background: #F97300;
+    color: #fff;
+    text-align: center;
+    border-bottom-left-radius: 93%;
+    transition:.3s ease-in-out;
+    
+   }
